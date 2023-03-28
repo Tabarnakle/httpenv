@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: benabarzua/docker-ci-automation:latest,benabarzua/docker-ci-automation:01
+          tags: benabarzua/httpenv:latest,benabarzua/httpenv:01
